@@ -1,0 +1,224 @@
+
+
+
+body{
+    background-color: rgb(243,241,239);
+    display:inline-flex;
+}
+
+.hambur{
+    color: black;
+    display: none;
+    cursor: pointer;
+    font-size: 32px;  
+}
+
+.logo img{  
+    height: auto;
+    width: auto;
+    max-height: 25px;
+    max-width: 80px;
+    padding: 10px 350px 1px 1px;
+    display: inline-flex;
+}
+
+.menu {
+    display:inline-flex;  
+}
+
+ul li {  
+    padding:5px 10px;
+	display: inline;  
+}
+
+a{
+    text-decoration: none;
+    
+}
+.lets {
+    padding: 1px 1px 7px 440px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.lets a {
+    align-items: center;
+    border: 1px solid;
+    text-decoration: none;
+    padding: 7px 7px 7px 7px;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: palevioletred;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.barra {
+    z-index: 2;
+    align-items: center;
+    display: inline-flex;
+    background-color: black;
+    color: white;
+    transform: rotate(-5deg);
+    position: absolute;
+    left: 1%;
+    top: 59%;
+}
+
+.barra .as{
+    display: inline-flex;
+    color: coral;
+    font-size: 150%;
+
+}
+
+.barra p{
+    display: inline-flex;
+    padding-right: 35px;   
+}
+
+section{
+    position:absolute;
+    left: 1%;
+    top: 9%;
+
+}
+.cuadro{
+    display: flex;
+    height: auto;
+    width: auto;
+    width: 1250px;
+    height: 250px;
+}
+
+section .cuadro img{
+    height: auto;
+    width: auto;
+    max-height: 20px;
+    max-width: 20px;
+}
+
+section p{
+  font-size: 150%;
+}
+
+.foto img{
+    z-index: 1;
+    position:absolute;
+    right: 9%;
+    top: 0%;
+    height: auto;
+    width: auto;
+    max-height: 300px;
+    max-width: 300px;
+
+}
+
+.cont-boton{
+	display: flex;
+	position: absolute;
+	top: 45%;
+}
+
+
+
+
+
+
+@media (max-width: 480px){	
+	.foto img{
+        z-index: 1;
+        position:absolute;
+        left: 15%;
+        top: -15%;
+        height: auto;
+        width: auto;
+        max-height: 180px;
+        max-width: 180px;
+	}	
+    
+    .barra {
+        z-index: 2;
+        align-items: center;
+        display: inline-flex;
+        background-color: black;
+        color: white;
+        transform: rotate(-3deg);
+        position: absolute;
+        left: 1%;
+        top: 51%;
+    }
+		.barra .as{
+            font-size: 5%;
+            margin: 2px;
+            padding: 0%;
+		}
+        .barra p{
+            margin: 2px;
+            font-size: 1%;
+            padding: 0%;
+		}
+        
+        section .cuadro img{
+            height: auto;
+            width: auto;
+            max-height: 10px;
+            max-width:  10px;
+        }
+
+        section p{
+            font-size: 100%;
+          }
+
+          section{
+            position:absolute;
+            left: 1%;
+            top: 25%;
+        
+        }
+        .cont-boton{
+            display: flex;
+            position: absolute;
+            top: 35%;
+        }
+        .boton{
+            display: flex;
+            height: auto;
+            width: auto;
+            width: 90px;
+            height: 20px;
+            font-size: 10px;
+            justify-content: center;
+            padding: 3px;
+            background-color: white;
+            border: 1px solid;
+            margin: 1px;
+        }
+
+        .boton:hover{
+            background-color: black;
+            color: white;
+        }
+
+        .hambur{
+            position:absolute;
+            color: black;
+            display: flex;
+            cursor: pointer;
+            font-size: 32px;
+            left: 90%;
+        }
+
+        .menu{
+            display: none;
+        }
+
+        .lets{
+            display: none;
+        }
+        
+}
