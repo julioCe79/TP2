@@ -124,8 +124,24 @@ section p{
 	top: 45%;
 }
 
+.boton{
+    display: flex;
+    height: auto;
+    width: auto;
+    width: 90px;
+    height: 20px;
+    font-size: 10px;
+    justify-content: center;
+    padding: 3px;
+    background-color: white;
+    border: 1px solid;
+    margin: 1px;
+}
 
-
+.boton:hover{
+    background-color: black;
+    color: white;
+}
 
 
 
@@ -183,7 +199,7 @@ section p{
         .cont-boton{
             display: flex;
             position: absolute;
-            top: 35%;
+            top: 34%;
         }
         .boton{
             display: flex;
